@@ -138,3 +138,101 @@ header{
     border-bottom: 1px solid #e5e5e5;
   }
 }
+
+/*секция  */
+
+.about{
+  font-weight: 800;
+}
+
+.about h2{
+  color: #000;
+  font-size: 36px;
+  line-height: 44px;
+  padding: 0 16px;
+  margin-bottom: 40px;
+}
+
+.about img{
+  min-width: 100%;
+}
+
+.about h2 em{
+  color: #949494;
+  font-size: 36px;
+  line-height: 44px;
+  display: block;
+}
+
+.about p{
+  font-size: 20px;
+  line-height: 28px;
+  color: #949494;
+  padding: 24px 16px 80px 16px;
+}
+
+@media (min-width:768px) {
+  .about h2{
+    color: #000;
+    font-size: 80px;
+    line-height: 96px;
+    padding: 0 24px;
+    margin-bottom: 80px;
+  }
+
+  .about p{
+    font-size: 36px;
+    line-height: 48px;
+    padding: 32px 24px 128px 24px;
+  }
+
+}
+
+/*shop */
+
+.shop{
+  font-weight: 800;
+}
+
+.shop h2{
+  font-size: 40px;
+  line-height: 44px;
+  color: #000;
+  padding: 0 16px 0 18px;
+}
+
+.shop h2 em{
+  color: #949494;
+  display: block;
+}
+
+.shop__item{
+  background: #FFFFFF;
+  box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.08);
+  border-radius: 24px;
+  margin: 48px 16px 56px 16px;
+  padding: 40px 24px 42px 24px;
+}
+
+.shop__item h3{
+  font-size: 18px;
+  line-height: 24px;
+  padding: 32px 0 8px 0;
+}
+
+.shop__item p{
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  padding: 0 0 32px 0;
+  color: #949494;
+}
+
+.shop__item a{
+  background: #1B76FF;
+  border-radius: 8px;
+  color: #fff;
+  font-size: 14px;
+  text-decoration: none;
+  padding: 14px 39px;
+}
