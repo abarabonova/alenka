@@ -210,10 +210,14 @@ header{
 
 .shop__item{
   background: #FFFFFF;
-  box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.08);
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.08);
   border-radius: 24px;
   margin: 48px 16px 56px 16px;
   padding: 40px 24px 42px 24px;
+}
+
+.shop__item:hover{
+  box-shadow: 0px 4px 90px rgba(0, 0, 0, 0.12);
 }
 
 .shop__item h3{
@@ -239,6 +243,10 @@ header{
   text-decoration: none;
   padding: 14px 39px;
   text-align: center;
+}
+
+.shop__item a:hover{
+  padding: 16px 42px;
 }
 
 .shop__item img{
