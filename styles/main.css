@@ -313,3 +313,7 @@ footer{
   border-radius: 50%;
   color: #C4C4C4;
 }
+
+em:hover {
+  color: red;
+}
